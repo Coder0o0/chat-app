@@ -1,0 +1,53 @@
+/* <div className="bg-blue-50 h-screen flex items-center">
+            <form className="w-64 mx-auto">
+                <input type="text" placeholder="username" className="block w-full rounded-sm p-2 mb-2 border" />
+                <input type="text" placeholder="password" className="block w-full rounded-sm p-2 mb-2 border" />
+                <button className="bg-blue-500 text-white block w-full rounded-sm p-2 ">Register</button>
+            </form>
+        </div> */
+
+.RegBlock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #d3ecf2;
+    flex-direction: column;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 16rem;
+    /* Adjust the width as needed */
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    /* margin-bottom: 12px; */
+}
+
+.inputcss {
+    display: block;
+    width: 100%;
+    border-radius: 0.125rem;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.regbut {
+    background-color: #3b82f6;
+    color: #ffffff;
+
+}
+
+.login {
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.login-button {
+    margin-left: 0.25rem;
+}
